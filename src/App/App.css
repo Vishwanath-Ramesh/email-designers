@@ -1,0 +1,43 @@
+:root {
+  --primary: #ffe1d1;
+  --secondary: #ffdbca;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1em;
+  margin: 0;
+  font-family: Alegreya, serif;
+  background: linear-gradient(
+    to left,
+    var(--primary) 0%,
+    var(--secondary) 100%
+  );
+  overflow-x: hidden;
+}
+
+.app {
+}
+
+/* --------------------- Media Queries --------------------- */
+
+@media (max-width: 80em) {
+  html {
+    font-size: 0.88em;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 0.77em;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 0.55em;
+  }
+}
