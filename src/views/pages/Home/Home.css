@@ -63,7 +63,8 @@
 }
 
 .container {
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  width: 100%;
 }
 
 .hero__container {
@@ -87,7 +88,7 @@
   bottom: -350px;
 }
 
-#wavw1,
+#wave1,
 #wave3,
 #wave5 {
   opacity: 0.8;
@@ -95,7 +96,8 @@
 
 #waves {
   justify-self: end;
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  width: 100%;
   width: 100%;
   grid-column: 1/5;
   align-self: end;

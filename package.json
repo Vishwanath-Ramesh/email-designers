@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "email-designers",
   "version": "1.0.0",
-  "description": "A React boilerplate setup with webpack and babel setup",
+  "description": "A React application created while learning CSS Layout and Animations from https://designcode.io/css",
   "main": "index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",
@@ -24,7 +24,6 @@
   "author": "Vishwanath R",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -81,6 +80,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vishwanath-Ramesh/react-webpack-boilerplate.git"
+    "url": "git+https://github.com/Vishwanath-Ramesh/email-designers"
   }
 }
